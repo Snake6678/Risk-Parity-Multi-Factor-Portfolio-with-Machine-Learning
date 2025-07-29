@@ -2,7 +2,7 @@
 
 This project demonstrates how to build a multi-factor investment strategy with machine learning forecasts and allocate capital using **risk parity**. It is designed to showcase data processing, predictive modeling, and portfolio optimization in one reproducible workflow.
 
-## 🔧 Key Components
+## Key Components
 
 1. **Data Loading**
    - Loads SPY price data from a CSV file.
@@ -23,7 +23,7 @@ This project demonstrates how to build a multi-factor investment strategy with m
 5. **Demonstration**
    - The main script ties all components together and prints expected returns and portfolio weights.
 
-## 🧠 Financial Concepts Used
+## Financial Concepts Used
 
 - **Multi-Factor Models**: Explain asset returns using multiple explanatory variables.  
 - **Risk Parity**: A strategy that equalizes the contribution of each asset to portfolio volatility.
@@ -33,7 +33,7 @@ Sources:
 - [Investopedia - Multi-Factor Model](https://www.investopedia.com/terms/m/multifactor-model.asp)
 - [LuxAlgo Blog on Risk Parity in Python](https://www.luxalgo.com/blog/risk-parity-allocation-with-python/)
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone this repo or download the files.
 2. Ensure you have Python 3.8+ and the required libraries (`numpy`, `pandas`, `sklearn`, `scipy`).
@@ -42,7 +42,7 @@ Sources:
    python risk_parity_multi_factor.py
    ```
 
-## 📂 Files
+## Files
 
 - `risk_parity_multi_factor.py`: The main script.
 - `spy_us_d.csv`: Historical SPY price data used for modeling.

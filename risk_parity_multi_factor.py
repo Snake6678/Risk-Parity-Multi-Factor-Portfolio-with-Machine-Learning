@@ -401,7 +401,7 @@ def main() -> None:
     portfolio weights for inspection.
     """
     # ----------------------- Configuration -----------------------
-    spy_csv = "/home/oai/share/spy_us_d.csv"
+    spy_csv = "spy_us_d.csv"
     train_end = "2023-12-31"  # last date for training
     forecast_horizon = 5       # number of days ahead to forecast
 
